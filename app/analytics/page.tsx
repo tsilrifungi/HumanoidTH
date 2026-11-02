@@ -4,7 +4,7 @@ import { cookies } from "next/headers";
 import { getTranslation } from "@/lib/translations";
 import AnalyticsPlayground from "./AnalyticsPlayground";
 import AnalyticsBpmn from "./AnalyticsBpmn";
-import SynergyTabs from "@/app/components/Synergy tabs/synergytabs";
+import SynergyTabs from "@/app/components/Synergytabs/synergytabs";
 
 export const dynamic = "force-dynamic";
 
@@ -62,7 +62,6 @@ export const metadata: Metadata = {
         select: {
           sourceType: true,
           relevanceStatus: true,
-          platform: true,
           publishedAt: true,
           createdAt: true,
           relevanceConfidence: true,

@@ -1,13 +1,18 @@
-"use client";
+import { cookies } from "next/dist/server/request/cookies";
 import styles from "./decorate.module.css";
+import { getTranslation } from "@/lib/translations";
+import SynergyTabs from "/app/components/Synergytabs/synergytabs";
 
-const Synergy = () => {
+
+const Synergy = async () => {
+    const cookieStore = await cookies();
+    const lang = (cookieStore.get("lang")?.value || "en") as "en" | "th";
+    const t = getTranslation(lang);
+
     return (
         <div className={styles.container}>
-            <h1 className={styles.title}>Synergy Track</h1>
-            <div className={styles.content}>
-
-            </div>
+            <SynergyTabs />
+            <h1 className={styles.title}>{t.synergy}</h1>
         </div>
     )
 }
