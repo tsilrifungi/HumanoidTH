@@ -16,7 +16,10 @@ export const translations = {
     admin: "Admin",
     cms: "CMS",
     profile: "Profile",
-    
+
+    //synergy
+    synergy: "Synergy Track",
+
     // Overview page
     overviewTitle: "Overview & Corpus Summary",
     overviewDesc: "Research database for Thailand humanoid, social, and service robotics records.",
@@ -72,7 +75,7 @@ export const translations = {
     cmsDesc: "Edit source records, robot models, and community content in one place.",
     profileTitle: "User Profile & Simulation",
     profileDesc: "Manage your current session user email and role for simulation purposes.",
-    
+
     // Copy Local Graph Paths
     copyLocalGraphPaths: "Copy Local Graph Paths",
     basePathLabel: "Base Path",
@@ -104,6 +107,10 @@ export const translations = {
     admin: "ผู้ดูแลระบบ",
     cms: "CMS",
     profile: "โปรไฟล์ระบบ",
+
+
+    //synergy
+    synergy: "Synergy Track",
 
     // Overview page
     overviewTitle: "ภาพรวมและสรุปคลังข้อมูล",
@@ -160,7 +167,7 @@ export const translations = {
     cmsDesc: "แก้ไขข้อมูลต้นทาง โมเดลหุ่นยนต์ และข้อมูลจากชุมชนได้ในที่เดียว",
     profileTitle: "โปรไฟล์และจำลองสิทธิ์ผู้ใช้งาน",
     profileDesc: "กำหนดอีเมลและสิทธิ์ผู้ใช้งานปัจจุบันเพื่อจุดประสงค์ในการจำลองและทดสอบระบบ",
-    
+
     // Copy Local Graph Paths
     copyLocalGraphPaths: "คัดลอกเส้นทางกราฟเฉพาะที่ (Copy Local Graph Paths)",
     basePathLabel: "เส้นทางหลัก (Base Path)",

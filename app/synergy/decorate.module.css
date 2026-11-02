@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    font-weight: 400px;
+
+}
+
+.content {
+    border: 1px solid #ccc;
+    background-color: #0d9c38;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
