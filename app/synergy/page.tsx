@@ -2,6 +2,7 @@ import { cookies } from "next/dist/server/request/cookies";
 import styles from "./decorate.module.css";
 import { getTranslation } from "@/lib/translations";
 import SynergyTabs from "/app/components/Synergytabs/synergytabs";
+import TrackTabs from "./TrackTabs";
 
 
 const Synergy = async () => {
@@ -13,6 +14,7 @@ const Synergy = async () => {
         <div className={styles.container}>
             <SynergyTabs />
             <h1 className={styles.title}>{t.synergy}</h1>
+            <TrackTabs />
         </div>
     )
 }
